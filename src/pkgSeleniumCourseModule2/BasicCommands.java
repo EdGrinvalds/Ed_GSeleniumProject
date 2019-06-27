@@ -1,9 +1,9 @@
 package pkgSeleniumCourseModule2;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.By;
 
 public class BasicCommands {
 
@@ -13,13 +13,16 @@ public class BasicCommands {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\edgri\\Desktop\\SeleniumCertificationTraining\\Selenium\\drivers\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
-		//Open web page
+		//Open chrome web page
 		driver.get("https://www.facebook.com");
 		
 		//Launch Firefox browser
-		System.setProperty("webdriver.gecko.driver", "D:\\Training\\Selenium\\Selenium\\drivers\\geckodriver_0.24.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\edgri\\Desktop\\SeleniumCertificationTraining\\Selenium\\drivers\\geckodriver-v0.24.0-win64\\geckodriver.exe");
 		WebDriver driver1 = new FirefoxDriver();
 
+		//Open FireFox web page
+		driver1.get("https://www.facebook.com");
+		
 		//Close & Quit Commands
 		driver.close(); //Close only the current active window opened within current instance
 		driver.quit();  //Close all the windows opened within current instance
