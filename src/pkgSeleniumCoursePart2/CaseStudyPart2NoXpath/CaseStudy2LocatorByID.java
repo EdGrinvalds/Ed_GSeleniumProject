@@ -14,7 +14,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 public class CaseStudy2LocatorByID {
 
 	public static void main(String[] args) {
-		
+ 		
 		//***********
 		//
 		//SETUP
