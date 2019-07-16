@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parameterization">	
+	<test name="Chrome">
+	<parameter name="Uname" value="abhresh"></parameter>
+	<parameter name="pass" value="abhresh"></parameter>
+	<parameter name="B" value="Chrome"></parameter>
+		<classes>
+			<class name="module6.Scenario3"></class>
+		</classes>
+	</test>
+	
+	<test name="IE">
+	<parameter name="Uname" value="Abhi"></parameter>
+	<parameter name="pass" value="sugandhi"></parameter>
+	<parameter name="B" value="IE"></parameter>
+		<classes>
+			<class name="module6.Scenario3"></class>
+		</classes>
+	</test>
+	
+</suite>

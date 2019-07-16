@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Testing Newtours WebSite">
+	<test name="Login to Newtours Website">
+		<parameter name="Username" value="tsetekaf@gmail.com"></parameter>
+		<parameter name="Password" value="tsetekaf"></parameter>
+		<classes>
+			<class name="pkgSeleniumCoursePart6.FilesFromTabresh.TestNG"></class>
+		</classes>
+	</test>
+</suite>

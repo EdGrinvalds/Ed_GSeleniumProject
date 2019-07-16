@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testing Newtours WebSite]">
+  <test thread-count="5" name="Login to Newtours Website(failed)">
+    <parameter name="Username" value="myUserName@gmail.com"/>
+    <parameter name="Password" value="mypwd"/>
+    <classes>
+      <class name="pkgSeleniumCoursePart6.FilesFromTabresh.TestNG">
+        <methods>
+          <include name="Logout"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- pkgSeleniumCoursePart6.FilesFromTabresh.TestNG -->
+    </classes>
+  </test> <!-- Login to Newtours Website(failed) -->
+</suite> <!-- Failed suite [Testing Newtours WebSite] -->

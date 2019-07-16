@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testing Newtours WebSite by Ed_G" duration-ms="16281" started-at="2019-07-14T20:13:33Z" finished-at="2019-07-14T20:13:49Z">
+    <groups>
+    </groups>
+    <test name="Login/Logout and Test Duplicate Account Creation on Newtours Website" duration-ms="16281" started-at="2019-07-14T20:13:33Z" finished-at="2019-07-14T20:13:49Z">
+      <class name="pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6@27f723]" name="Setup" is-config="true" duration-ms="4743" started-at="2019-07-14T20:13:28Z" finished-at="2019-07-14T20:13:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="OpenAUT()[pri:10, instance:pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6@27f723]" name="OpenAUT" duration-ms="777" started-at="2019-07-14T20:13:33Z" finished-at="2019-07-14T20:13:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAUT -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:20, instance:pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6@27f723]" name="Login" duration-ms="1887" started-at="2019-07-14T20:13:34Z" depends-on-methods="pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6.OpenAUT" finished-at="2019-07-14T20:13:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tsetekaf@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tsetekaf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Logout()[pri:40, instance:pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6@27f723]" name="Logout" duration-ms="611" started-at="2019-07-14T20:13:36Z" finished-at="2019-07-14T20:13:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="RegistrationAttemptSameEmailExpectFailure(java.lang.String, java.lang.String, java.lang.String)[pri:50, instance:pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6@27f723]" name="RegistrationAttemptSameEmailExpectFailure" duration-ms="12843" started-at="2019-07-14T20:13:36Z" depends-on-methods="pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6.Logout" finished-at="2019-07-14T20:13:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tsetekaf@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tsetekaf]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tsetekaf@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationAttemptSameEmailExpectFailure -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:60, instance:pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6@27f723]" name="CloseBrowser" duration-ms="135" started-at="2019-07-14T20:13:49Z" finished-at="2019-07-14T20:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6@27f723]" name="QuitBrowser" is-config="true" duration-ms="1131" started-at="2019-07-14T20:13:49Z" finished-at="2019-07-14T20:13:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6 -->
+    </test> <!-- Login/Logout and Test Duplicate Account Creation on Newtours Website -->
+  </suite> <!-- Testing Newtours WebSite by Ed_G -->
+</testng-results>

@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ParallelTesting" parallel="tests">
+	<test name="Chrome1">
+		<parameter name="B" value="Chrome"></parameter>
+		<classes>
+			<class name="module6.Scenario3"></class>
+		</classes>
+	</test>
+	<test name="Chrome2">
+		<classes>
+			<class name="module6.NewTest"></class>
+		</classes>
+	</test>
+</suite>
