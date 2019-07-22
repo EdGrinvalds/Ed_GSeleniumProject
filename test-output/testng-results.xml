@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Testing Newtours WebSite by Ed_G" duration-ms="16281" started-at="2019-07-14T20:13:33Z" finished-at="2019-07-14T20:13:49Z">
+  <suite name="Default suite" duration-ms="26284" started-at="2019-07-22T02:37:55Z" finished-at="2019-07-22T02:38:21Z">
     <groups>
     </groups>
-    <test name="Login/Logout and Test Duplicate Account Creation on Newtours Website" duration-ms="16281" started-at="2019-07-14T20:13:33Z" finished-at="2019-07-14T20:13:49Z">
-      <class name="pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6@27f723]" name="Setup" is-config="true" duration-ms="4743" started-at="2019-07-14T20:13:28Z" finished-at="2019-07-14T20:13:33Z">
+    <test name="Default test" duration-ms="26284" started-at="2019-07-22T02:37:55Z" finished-at="2019-07-22T02:38:21Z">
+      <class name="pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f]" name="OpenBrowser" is-config="true" duration-ms="11453" started-at="2019-07-22T02:37:55Z" finished-at="2019-07-22T02:38:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="OpenAUT()[pri:10, instance:pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6@27f723]" name="OpenAUT" duration-ms="777" started-at="2019-07-14T20:13:33Z" finished-at="2019-07-14T20:13:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenAUT -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:20, instance:pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6@27f723]" name="Login" duration-ms="1887" started-at="2019-07-14T20:13:34Z" depends-on-methods="pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6.OpenAUT" finished-at="2019-07-14T20:13:36Z">
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:10, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f]" name="Login" duration-ms="5094" started-at="2019-07-22T02:38:07Z" data-provider="loginCredentialsDataFeed" finished-at="2019-07-22T02:38:12Z">
           <params>
             <param index="0">
               <value>
@@ -31,40 +27,67 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="Logout()[pri:40, instance:pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6@27f723]" name="Logout" duration-ms="611" started-at="2019-07-14T20:13:36Z" finished-at="2019-07-14T20:13:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logout -->
-        <test-method status="PASS" signature="RegistrationAttemptSameEmailExpectFailure(java.lang.String, java.lang.String, java.lang.String)[pri:50, instance:pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6@27f723]" name="RegistrationAttemptSameEmailExpectFailure" duration-ms="12843" started-at="2019-07-14T20:13:36Z" depends-on-methods="pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6.Logout" finished-at="2019-07-14T20:13:49Z">
+        <test-method status="PASS" signature="FetchAndAddEachTestsStatusToExcelFile(org.testng.ITestResult, org.testng.ITestResult)[pri:0, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f]" name="FetchAndAddEachTestsStatusToExcelFile" is-config="true" duration-ms="236" started-at="2019-07-22T02:38:12Z" finished-at="2019-07-22T02:38:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[tsetekaf@gmail.com]]>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=CaseStudy9WithTestNG.Login(java.lang.String, java.lang.String)[pri:10, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[tsetekaf]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[tsetekaf@gmail.com]]>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=CaseStudy9WithTestNG.Login(java.lang.String, java.lang.String)[pri:10, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RegistrationAttemptSameEmailExpectFailure -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:60, instance:pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6@27f723]" name="CloseBrowser" duration-ms="135" started-at="2019-07-14T20:13:49Z" finished-at="2019-07-14T20:13:49Z">
+        </test-method> <!-- FetchAndAddEachTestsStatusToExcelFile -->
+        <test-method status="PASS" signature="NavigateToBlogs()[pri:20, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f]" name="NavigateToBlogs" duration-ms="2997" started-at="2019-07-22T02:38:12Z" depends-on-methods="pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG.Login" finished-at="2019-07-22T02:38:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6@27f723]" name="QuitBrowser" is-config="true" duration-ms="1131" started-at="2019-07-14T20:13:49Z" finished-at="2019-07-14T20:13:51Z">
+        </test-method> <!-- NavigateToBlogs -->
+        <test-method status="PASS" signature="FetchAndAddEachTestsStatusToExcelFile(org.testng.ITestResult, org.testng.ITestResult)[pri:0, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f]" name="FetchAndAddEachTestsStatusToExcelFile" is-config="true" duration-ms="105" started-at="2019-07-22T02:38:15Z" finished-at="2019-07-22T02:38:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigateToBlogs status=SUCCESS method=CaseStudy9WithTestNG.NavigateToBlogs()[pri:20, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=NavigateToBlogs status=SUCCESS method=CaseStudy9WithTestNG.NavigateToBlogs()[pri:20, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FetchAndAddEachTestsStatusToExcelFile -->
+        <test-method status="PASS" signature="FilterAndClickBlog()[pri:30, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f]" name="FilterAndClickBlog" duration-ms="3739" started-at="2019-07-22T02:38:15Z" depends-on-methods="pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG.NavigateToBlogs" finished-at="2019-07-22T02:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterAndClickBlog -->
+        <test-method status="PASS" signature="FetchAndAddEachTestsStatusToExcelFile(org.testng.ITestResult, org.testng.ITestResult)[pri:0, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f]" name="FetchAndAddEachTestsStatusToExcelFile" is-config="true" duration-ms="80" started-at="2019-07-22T02:38:19Z" finished-at="2019-07-22T02:38:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FilterAndClickBlog status=SUCCESS method=CaseStudy9WithTestNG.FilterAndClickBlog()[pri:30, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=FilterAndClickBlog status=SUCCESS method=CaseStudy9WithTestNG.FilterAndClickBlog()[pri:30, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FetchAndAddEachTestsStatusToExcelFile -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f]" name="QuitBrowser" is-config="true" duration-ms="1883" started-at="2019-07-22T02:38:19Z" finished-at="2019-07-22T02:38:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitBrowser -->
-      </class> <!-- pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6 -->
-    </test> <!-- Login/Logout and Test Duplicate Account Creation on Newtours Website -->
-  </suite> <!-- Testing Newtours WebSite by Ed_G -->
+      </class> <!-- pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

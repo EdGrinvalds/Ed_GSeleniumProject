@@ -18,14 +18,15 @@ public class DDT {
 	WebDriver driver;
 	Workbook wb;
 	Sheet sh;
-	int norows;
-	int nocols;
+	int numrows;
+	int numcols;
 	
 	
 	@BeforeTest
 	public void OpenBrowser() {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\edgri\\Desktop\\SeleniumCertificationTraining\\Selenium\\drivers\\chromedriver_win32\\chromedriver.exe");		driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\edgri\\Desktop\\SeleniumCertificationTraining\\Selenium\\drivers\\chromedriver_win32\\chromedriver.exe");		
+		driver = new ChromeDriver();
 	
 		driver.get("https://seleniumautomationpractice.blogspot.com/2017/10/automation-testing-sample_28.html");
 	}
@@ -41,22 +42,22 @@ public class DDT {
 		
 		sh = wb.getSheet("Sheet1");
 		
-		norows = sh.getLastRowNum();
+		numrows = sh.getLastRowNum();
 		//NOTE1:
-		//Add 1 to norows immediately after getting the last row but ore important before instantiating the formData 2-dimensional array. Need to have an array that is 10 rows deep.
-		norows = norows + 1;
-		System.out.println(norows);
+		//Add 1 to numrows immediately after getting the last row but it is important before instantiating the formData 2-dimensional array. Need to have an array that is 10 rows deep.
+		numrows = numrows + 1;
+		System.out.println(numrows);
 		
-		nocols = sh.getRow(0).getLastCellNum();
-		System.out.println(nocols);
+		numcols = sh.getRow(0).getLastCellNum();
+		System.out.println(numcols);
 		
-		Object[][] formData = new Object[norows][nocols];
+		Object[][] formData = new Object[numrows][numcols];
 		
-		for(int row=0; row<norows; row++) 
+		for(int row=0; row<numrows; row++) 
 		{
 			System.out.println(row);
 			
-			for(int col=0; col<nocols; col++) 
+			for(int col=0; col<numcols; col++) 
 			{
 				
 				//fetch the data from the excel file and capture those bytes of the cell

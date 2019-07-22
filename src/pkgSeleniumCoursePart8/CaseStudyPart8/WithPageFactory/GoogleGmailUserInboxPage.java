@@ -50,7 +50,7 @@ public class GoogleGmailUserInboxPage {
 	@FindBy(xpath = "//*[@aria-label='Send ‪(Ctrl-Enter)‬']")
 	WebElement btnEmailSendButton;
 	
-	@FindBy(xpath = "//*[contains(concat(' ', normalize-space(@aria-label), ' '),' Google Account: gnitset.ekaf@gmail.com ')]")
+	@FindBy(xpath = "//*[contains(concat(' ', normalize-space(@aria-label), ' '),' Google Account: ')]")
 	WebElement btnGmailAccountButton;
 	
 	@FindBy(xpath = "//a[contains(text(), 'Sign out')]")

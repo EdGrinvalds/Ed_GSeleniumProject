@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
-//-------------------------------------------
+
 public class CaseStudy5 {
 
 	public static void main(String[] args) throws InterruptedException {

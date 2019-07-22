@@ -51,9 +51,10 @@ public class GoogleGmailHomePage {
 
 	
 	// Method to click on "Gmail" link.
-	public void clickOnGmailButton()
+	public void clickOnGmailButton() throws InterruptedException
 	{
-		//waitJScriptComplete.waitForLoad(driver);
+		Thread.sleep(2000);
+		waitJScriptComplete.waitForLoad(driver);
 		//wait.until(ExpectedConditions.presenceOfElementLocated(locatorGmail));
 		//wait.until(ExpectedConditions.elementToBeClickable(locatorGmail)).click();
 		

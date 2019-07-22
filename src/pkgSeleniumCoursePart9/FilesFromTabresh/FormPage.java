@@ -1,7 +1,8 @@
 package pkgSeleniumCoursePart9.FilesFromTabresh;
 
-//Not used.
+
 //import static org.testng.Assert.assertThrows;
+//Not used.
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

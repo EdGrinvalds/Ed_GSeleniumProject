@@ -41,7 +41,7 @@ public class CastStudy8TestCaseWithPageFactory {
 		//Setup global timeout waits for this Case Study's test script.
 		driver.manage().timeouts().setScriptTimeout(300, TimeUnit.SECONDS);
 		//Will use explicit waits. Do not mix implicit and explicit waits together. Reference: https://www.seleniumhq.org/docs/04_webdriver_advanced.jsp
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);	
+		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);	
 			
 		//Maximize window
 		driver.manage().window().maximize();

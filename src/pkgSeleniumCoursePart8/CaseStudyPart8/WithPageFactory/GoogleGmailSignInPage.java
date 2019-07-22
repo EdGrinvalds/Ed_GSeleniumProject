@@ -61,19 +61,21 @@ public class GoogleGmailSignInPage {
 	}
 	
 	// Type password
-	public void typePassword(String password)
+	public void typePassword(String password) throws InterruptedException
 	{
-		//waitJScriptComplete.waitForLoad(driver);
+		Thread.sleep(2000);
+		waitJScriptComplete.waitForLoad(driver);
 		//wait.until(ExpectedConditions.presenceOfElementLocated(locatorGmailPassword));	
 	    txtGmailPassword.sendKeys(password);
 
 	}
 	
 	// Click on Next button after entering GMail address.
-	public void clickOnGmailAddressNextButton()
+	public void clickOnGmailAddressNextButton() throws InterruptedException
 	{
 
-		//waitJScriptComplete.waitForLoad(driver);
+		//Thread.sleep(2000);
+		waitJScriptComplete.waitForLoad(driver);
 		//wait.until(ExpectedConditions.presenceOfElementLocated(locatorGmailNextButtonOnEmailAddress));
 		//wait.until(ExpectedConditions.elementToBeClickable(locatorGmailNextButtonOnEmailAddress));
 		btnGmailNextButtonOnEmailAddress.click();
@@ -83,8 +85,8 @@ public class GoogleGmailSignInPage {
 	public void clickOnGmailPasswordNextButton() throws InterruptedException
 	{
 
-		//Thread.sleep(1000);
-		//waitJScriptComplete.waitForLoad(driver);
+		//Thread.sleep(2000);
+		waitJScriptComplete.waitForLoad(driver);
 		//wait.until(ExpectedConditions.presenceOfElementLocated(locatorGmailNextButtonOnPassword));
 		//wait.until(ExpectedConditions.elementToBeClickable(locatorGmailNextButtonOnPassword));
 		btnGmailNextButtonOnPassword.click();

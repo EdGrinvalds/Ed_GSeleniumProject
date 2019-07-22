@@ -1,26 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Testing Newtours WebSite by Ed_G]">
-  <parameter name="Email" value="tsetekaf@gmail.com"/>
-  <parameter name="Username" value="tsetekaf@gmail.com"/>
-  <parameter name="Password" value="tsetekaf"/>
-  <test thread-count="5" name="Login/Logout and Test Duplicate Account Creation on Newtours Website(failed)">
-    <groups>
-      <run>
-        <exclude name="DebuggingOnly*"/>
-      </run>
-    </groups>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6">
+      <class name="pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithNG">
         <methods>
-          <include name="Logout"/>
-          <include name="OpenAUT"/>
+          <include name="NavigateToBlogs"/>
+          <include name="FetchAndAddEachTestsStatusToExcelFile"/>
           <include name="QuitBrowser"/>
-          <include name="RegistrationAttemptSameEmailExpectFailure"/>
-          <include name="Login"/>
-          <include name="Setup"/>
+          <include name="OpenBrowser"/>
+          <include name="FilterAndClickBlog"/>
+          <include name="Login" invocation-numbers="0"/>
         </methods>
-      </class> <!-- pkgSeleniumCoursePart6.CaseStudyPart6.CaseStudy6 -->
+      </class> <!-- pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithNG -->
     </classes>
-  </test> <!-- Login/Logout and Test Duplicate Account Creation on Newtours Website(failed) -->
-</suite> <!-- Failed suite [Testing Newtours WebSite by Ed_G] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
