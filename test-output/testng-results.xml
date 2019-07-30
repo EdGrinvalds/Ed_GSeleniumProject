@@ -1,93 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[SignIn Action is successfully performed]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26284" started-at="2019-07-22T02:37:55Z" finished-at="2019-07-22T02:38:21Z">
+  <suite name="Default suite" duration-ms="25770" started-at="2019-07-30T10:22:50Z" finished-at="2019-07-30T10:23:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26284" started-at="2019-07-22T02:37:55Z" finished-at="2019-07-22T02:38:21Z">
-      <class name="pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG">
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f]" name="OpenBrowser" is-config="true" duration-ms="11453" started-at="2019-07-22T02:37:55Z" finished-at="2019-07-22T02:38:06Z">
+    <test name="Default test" duration-ms="25770" started-at="2019-07-30T10:22:50Z" finished-at="2019-07-30T10:23:15Z">
+      <class name="ppkgzEdSelCertProj.testCases.UpdateProfile">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ppkgzEdSelCertProj.testCases.UpdateProfile@1f2586d6]" name="beforeMethod" is-config="true" duration-ms="11961" started-at="2019-07-30T10:22:50Z" finished-at="2019-07-30T10:23:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:10, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f]" name="Login" duration-ms="5094" started-at="2019-07-22T02:38:07Z" data-provider="loginCredentialsDataFeed" finished-at="2019-07-22T02:38:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[tsetekaf@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[tsetekaf]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="UpdateProfileTest()[pri:0, instance:ppkgzEdSelCertProj.testCases.UpdateProfile@1f2586d6]" name="UpdateProfileTest" duration-ms="13594" started-at="2019-07-30T10:23:02Z" finished-at="2019-07-30T10:23:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[SignIn Action is successfully performed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UpdateProfileTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ppkgzEdSelCertProj.testCases.UpdateProfile@1f2586d6]" name="afterMethod" is-config="true" duration-ms="134" started-at="2019-07-30T10:23:15Z" finished-at="2019-07-30T10:23:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="FetchAndAddEachTestsStatusToExcelFile(org.testng.ITestResult, org.testng.ITestResult)[pri:0, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f]" name="FetchAndAddEachTestsStatusToExcelFile" is-config="true" duration-ms="236" started-at="2019-07-22T02:38:12Z" finished-at="2019-07-22T02:38:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Login status=SUCCESS method=CaseStudy9WithTestNG.Login(java.lang.String, java.lang.String)[pri:10, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=Login status=SUCCESS method=CaseStudy9WithTestNG.Login(java.lang.String, java.lang.String)[pri:10, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FetchAndAddEachTestsStatusToExcelFile -->
-        <test-method status="PASS" signature="NavigateToBlogs()[pri:20, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f]" name="NavigateToBlogs" duration-ms="2997" started-at="2019-07-22T02:38:12Z" depends-on-methods="pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG.Login" finished-at="2019-07-22T02:38:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- NavigateToBlogs -->
-        <test-method status="PASS" signature="FetchAndAddEachTestsStatusToExcelFile(org.testng.ITestResult, org.testng.ITestResult)[pri:0, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f]" name="FetchAndAddEachTestsStatusToExcelFile" is-config="true" duration-ms="105" started-at="2019-07-22T02:38:15Z" finished-at="2019-07-22T02:38:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=NavigateToBlogs status=SUCCESS method=CaseStudy9WithTestNG.NavigateToBlogs()[pri:20, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=NavigateToBlogs status=SUCCESS method=CaseStudy9WithTestNG.NavigateToBlogs()[pri:20, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FetchAndAddEachTestsStatusToExcelFile -->
-        <test-method status="PASS" signature="FilterAndClickBlog()[pri:30, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f]" name="FilterAndClickBlog" duration-ms="3739" started-at="2019-07-22T02:38:15Z" depends-on-methods="pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG.NavigateToBlogs" finished-at="2019-07-22T02:38:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FilterAndClickBlog -->
-        <test-method status="PASS" signature="FetchAndAddEachTestsStatusToExcelFile(org.testng.ITestResult, org.testng.ITestResult)[pri:0, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f]" name="FetchAndAddEachTestsStatusToExcelFile" is-config="true" duration-ms="80" started-at="2019-07-22T02:38:19Z" finished-at="2019-07-22T02:38:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=FilterAndClickBlog status=SUCCESS method=CaseStudy9WithTestNG.FilterAndClickBlog()[pri:30, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=FilterAndClickBlog status=SUCCESS method=CaseStudy9WithTestNG.FilterAndClickBlog()[pri:30, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FetchAndAddEachTestsStatusToExcelFile -->
-        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG@5bfbf16f]" name="QuitBrowser" is-config="true" duration-ms="1883" started-at="2019-07-22T02:38:19Z" finished-at="2019-07-22T02:38:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- QuitBrowser -->
-      </class> <!-- pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithTestNG -->
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ppkgzEdSelCertProj.testCases.UpdateProfile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

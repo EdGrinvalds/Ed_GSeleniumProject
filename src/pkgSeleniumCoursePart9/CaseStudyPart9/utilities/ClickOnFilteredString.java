@@ -27,7 +27,7 @@ public class ClickOnFilteredString {
 	List <WebElement> linkOccurence = driver.findElements(By.partialLinkText("Selenium"));
 		for(WebElement element : linkOccurence)
 		{
-			//System.out.println("Link occurence with text string \"Selenium\" in it: " + element.getText());
+			//System.out.println("Link occurrence with text string \"Selenium\" in it: " + element.getText());
 			String currentEle = element.getText();
 			if(currentEle.contains("interview"))
 				driver.findElement(By.partialLinkText("interview")).click();

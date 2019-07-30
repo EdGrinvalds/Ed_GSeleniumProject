@@ -3,16 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithNG">
+      <class name="ppkgzEdSelCertProj.testCases.UpdateProfile">
         <methods>
-          <include name="NavigateToBlogs"/>
-          <include name="FetchAndAddEachTestsStatusToExcelFile"/>
-          <include name="QuitBrowser"/>
-          <include name="OpenBrowser"/>
-          <include name="FilterAndClickBlog"/>
-          <include name="Login" invocation-numbers="0"/>
+          <include name="UpdateProfileTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- pkgSeleniumCoursePart9.CaseStudyPart9.CaseStudy9WithNG -->
+      </class> <!-- ppkgzEdSelCertProj.testCases.UpdateProfile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
